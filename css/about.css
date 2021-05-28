@@ -1,0 +1,313 @@
+/* About US Page */
+/* @media (min-width: 576px) and (){ ... } */
+.container-fluid {
+    padding: 0;
+    }
+    .banner img {
+    width: 100%;
+    }
+    .article-07-m li a.active {
+    position: relative;
+    }
+    .article-05-m .card-body {
+    font-size: 10px;
+    }
+    .article-07-m li a.active::after {
+    position: absolute;
+    content: '';
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #274777;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    }
+    .article-pc-common {
+    margin: 5rem auto;
+    padding: 0 2rem;
+    background-size: cover;
+    }
+    @media (min-width: 1400px) {
+    .article-01-pc h5 {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    .article-01-pc p {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    .article-01-pc h6 {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    .article-02-pc h5,
+    .article-03-pc h5,
+    .article-04-pc h5 {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    .article-02-pc p,
+    .article-03-pc p,
+    .article-04-pc p {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    .article-02-pc h6,
+    .article-03-pc h6,
+    .article-04-pc h6 {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    }
+    h5 {
+    font-size: 2rem;
+    }
+    p {
+    line-height: 2;
+    }
+    ul li {
+    line-height: 2;
+    }
+    .article-pc-common {
+    margin: 8rem auto;
+    padding: 0 15rem;
+    }
+    .article-02-pc {
+    padding: 5rem 15rem;
+    }
+    .article-03-pc {
+    margin-bottom: 0;
+    padding-bottom: 10rem;
+    }
+    .article-05-pc .card-body p {
+    font-size: 1rem !important;
+    }
+    }
+    .article-02-m {
+    background-image: url('https://site-static.ecovacs.com/cdn/m-2-m.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    }
+    .article-02-pc {
+    background-image: url('https://site-static.ecovacs.com/cdn/m-2-pc.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+    .article-03-pc {
+    margin-bottom: 0;
+    background-image: url('https://site-static.ecovacs.com/cdn/m-3-pc.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .article-03-pc p:last-child {
+      /* margin-bottom: 14rem; */
+      margin-bottom: 0;
+      padding-bottom: 14rem;
+    }
+    .article-04-pc {
+    margin-top: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    }
+    .article-05-pc {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #9bbeca;
+    color: white;
+    }
+    .article-05-pc .card {
+    background-color: #7aa5b9;
+    }
+    .article-05-pc .card-body p {
+    font-size: 10px;
+    }
+    .article-06-pc .nav-top span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+    }
+    .article-06-pc .nav-top {
+    position: relative;
+    }
+    .article-06-pc .nav-top hr {
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    top: 0.4rem;
+    z-index: -1;
+    }
+    .article-06-pc .nav-top a.active span {
+    color: white;
+    background-color: #1b384f;
+    border: 0;
+    }
+    .article-06-pc .nav-top .tab-content .content {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 16rem;
+    margin-top: 3rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .right {
+    padding-left: 1rem;
+    background-color: #f7f7f7;
+    color: #727171;
+    }
+    .article-06-pc .nav-top .tab-content .content .right h3 {
+    padding-left: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .right ul {
+    font-size: 0.8rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .left img {
+    height: 100%;
+    width: 100%;
+    }
+    .article-07-pc .nav a {
+    font-weight: 300;
+    }
+    .article-07-pc .nav a span {
+    width: 1.5rem;
+    border-bottom: 0.2rem solid white;
+    display: inline-block;
+    position: relative;
+    bottom: 0.2rem;
+    margin-right: 1rem;
+    }
+    .article-07-pc .nav a.active span {
+    border-color: #184586;
+    }
+    .article-07-pc .col-5 {
+    display: flex;
+    align-items: center;
+    }
+    .article-06-pc .nav-top span {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    }
+    .article-06-pc .nav-top {
+    position: relative;
+    }
+    .article-06-pc .nav-top hr {
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    top: 0.4rem;
+    z-index: -1;
+    }
+    .article-06-pc .nav-top a.active span {
+    color: white;
+    background-color: #1b384f;
+    border: 0;
+    }
+    .article-06-pc .nav-top .tab-content .content {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 16rem;
+    margin-top: 3rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .left {
+    float: left;
+    }
+    .article-06-pc .nav-top .tab-content .content .right {
+    padding-left: 1rem;
+    background-color: #f7f7f7;
+    color: #727171;
+    overflow: hidden;
+    width: 100%;
+    }
+    .article-06-pc .nav-top .tab-content .content .right h3 {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .right ul {
+    font-size: 0.8rem;
+    }
+    .article-06-pc .nav-top .tab-content .content .left img {
+    height: 100%;
+    width: 100%;
+    }
+    .article-06 .con a {
+    margin: 0 2.2rem;
+    }
+    .article-06 .con {
+    display: flex;
+    position: relative;
+    }
+    .article-06 #myTab {
+    position: relative;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style:none
+    }
+    .article-06 a.allow-left {
+    position: absolute;
+    left: 0rem;
+    margin: 0;
+    z-index: 999;
+    }
+    .article-06 a.allow-right {
+    position: absolute;
+    right: 0rem;
+    margin: 0;
+    z-index: 999;
+    }
+    .article-06 #myTab::-webkit-scrollbar {
+    display: none;
+    }
+    .card .card-body p {
+    font-family: "HelveticaRoman";
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    .card .card-body h6 {
+    font-family: "HelveticaMedium" !important;
+    font-size: 1.3rem;
+    }
+    .card .card-body h6 small {
+    font-size: .9rem;
+    font-family: "HelveticaRoman";
+    line-height: 1;
+    font-weight: normal !important;
+    }
+    .card .card-body p {
+    font-family: "HelveticaRoman";
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    }
+    section h6 {
+    font-weight: normal !important;
+    font-family: "HelveticaMedium" !important;
+    font-size: 1.3rem !important;
+    }
+    section h5 {
+    font-family: "HelveticaMedium" !important;
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
+    }

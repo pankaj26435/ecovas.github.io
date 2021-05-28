@@ -1,0 +1,294 @@
+@font-face {
+    font-family: iconfont;
+    src: url(../fonts/font_1068632_lsahwhnxqei.eot);
+    src: url(../fonts/font_1068632_lsahwhnxqei.eot#iefix) format("embedded-opentype"), 
+        url(../fonts/font_1068632_lsahwhnxqei.woff2) format("woff2"), 
+        url(../fonts/font_1068632_lsahwhnxqei.woff) format("woff"), 
+        url(../fonts/font_1068632_lsahwhnxqei.ttf) format("truetype"), 
+        url(../fonts/font_1068632_lsahwhnxqei.svg#iconfont) format("svg");
+    font-display: swap
+}
+
+.iconfont {
+    font-family: iconfont!important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-linkedin-fill:before {
+    content: "\E61C"
+}
+
+.icon-facebook-fill:before {
+    content: "\E61E"
+}
+
+.icon-twitter:before {
+    content: "\E61F"
+}
+
+.icon-cloudupload:before {
+    content: "\E871"
+}
+
+.icon-blog-fill:before {
+    content: "\E61B"
+}
+
+.icon-blog:before {
+    content: "\E619"
+}
+
+.icon-sort-desc:before {
+    content: "\EA87"
+}
+
+.icon-sort-asc:before {
+    content: "\E615"
+}
+
+.icon-success2:before {
+    content: "\E622"
+}
+
+.icon-edit1:before {
+    content: "\E613"
+}
+
+.icon-pay1:before {
+    content: "\E614"
+}
+
+.icon-eraser:before {
+    content: "\E612"
+}
+
+.icon-send:before {
+    content: "\EA85"
+}
+
+.icon-feature-visual-boundary:before {
+    content: "\E60F"
+}
+
+.icon-feature-remote-control:before {
+    content: "\E60C"
+}
+
+.icon-DEEBOTPRODUCTICON-1:before {
+    content: "\E60B"
+}
+
+.icon-_huaban:before {
+    content: "\E606"
+}
+
+.icon-pdf:before {
+    content: "\E64C"
+}
+
+.icon-DEEBOTPRODUCTICON-:before {
+    content: "\E603"
+}
+
+.icon-line-arrow-left2:before {
+    content: "\E61A"
+}
+
+.icon-line-arrow-right2:before {
+    content: "\EA26"
+}
+
+.icon-instagram:before {
+    content: "\E601"
+}
+
+.icon-facebook:before {
+    content: "\E607"
+}
+
+.icon-linkedin:before {
+    content: "\E60A"
+}
+
+.icon-youtube:before {
+    content: "\E647"
+}
+
+.icon-dot:before {
+    content: "\E600"
+}
+
+.icon-back:before {
+    content: "\E64D"
+}
+
+.icon-line-arrow-left:before {
+    content: "\E60E"
+}
+
+.icon-line-arrow-right:before {
+    content: "\EA25"
+}
+
+.icon-more-text:before {
+    content: "\EA88"
+}
+
+.icon-twitter2:before {
+    content: "\EA86"
+}
+
+.icon-facebook-fill2:before {
+    content: "\E605"
+}
+
+.icon-linkedin-fill-bak:before {
+    content: "\E632"
+}
+
+.icon-twitter-fill:before {
+    content: "\E618"
+}
+
+.icon-youtube-fill:before {
+    content: "\E62A"
+}
+
+.icon-instagram-fill:before {
+    content: "\E61D"
+}
+
+.icon-logo:before {
+    content: "\E658"
+}
+
+.icon-shopping-bag:before {
+    content: "\E697"
+}
+
+.icon-arrow-up:before {
+    content: "\E65E"
+}
+
+.icon-arrow-down:before {
+    content: "\E65F"
+}
+
+.icon-menu:before {
+    content: "\E611"
+}
+
+.icon-pay:before {
+    content: "\E746"
+}
+
+.icon-error:before {
+    content: "\E62B"
+}
+
+.icon-warning:before {
+    content: "\E836"
+}
+
+.icon-info:before {
+    content: "\E67D"
+}
+
+.icon-success:before {
+    content: "\E655"
+}
+
+.icon-edit-2:before {
+    content: "\E6D3"
+}
+
+.icon-order:before {
+    content: "\E609"
+}
+
+.icon-creditcard:before {
+    content: "\E666"
+}
+
+.icon-paypal:before {
+    content: "\EA24"
+}
+
+.icon-visa:before {
+    content: "\E66E"
+}
+
+.icon-trash:before {
+    content: "\E643"
+}
+
+.icon-star:before {
+    content: "\E616"
+}
+
+.icon-star-fill:before {
+    content: "\E617"
+}
+
+.icon-arrow-right:before {
+    content: "\E660"
+}
+
+.icon-arrow-left:before {
+    content: "\E661"
+}
+
+.icon-edit:before {
+    content: "\E8CF"
+}
+
+.icon-minus:before {
+    content: "\E63F"
+}
+
+.icon-user1:before {
+    content: "\E610"
+}
+
+.icon-password:before {
+    content: "\E60D"
+}
+
+.icon-email:before {
+    content: "\E63B"
+}
+
+.icon-plus:before {
+    content: "\E602"
+}
+
+.icon-uncheck:before {
+    content: "\E70F"
+}
+
+.icon-close:before {
+    content: "\E6E1"
+}
+
+.icon-search:before {
+    content: "\E624"
+}
+
+.icon-check:before {
+    content: "\E645"
+}
+
+.icon-user:before {
+    content: "\E608"
+}
+
+.icon-cart:before {
+    content: "\E604"
+}
+
+.icon-check-filled:before {
+    content: "\E63A"
+}

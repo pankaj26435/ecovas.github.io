@@ -1,0 +1,155 @@
+/* Typing Effect */
+.output {
+    text-align: center;
+    color: #184586;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.output h1 {
+    font-size: 15px;
+    padding: 1px 10px;
+    line-height: 20px;
+    color: #184586;
+}
+/* //Typing Effect */
+
+.ecovacs-brand span {
+    white-space: nowrap;
+}
+.why-ecovacs-content {
+    background: url(../images/homepage2/why-ecovacs.jpg);
+    padding: 135px 0;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.why-ecovacs-content h2, .why-ecovacs-content p, .why-ecovacs-content h2, .why-ecovacs-content a {
+    color: #253646;
+}
+.why-ecovacs-content p {
+    font-size: 18px;
+}
+.why-ecovacs-content a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Overlay */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    /* font-size: 60px; */
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 50%;
+    text-align: justify;
+    margin-top: 30px;
+    margin: 0px auto;
+}
+.read_more_txt {
+    color: #fff!important;
+    font-size: 18px!important;
+    line-height: 40px;
+}
+.overlay-heading {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+@media screen and (max-height: 767px){
+    .overlay-content {
+        position: relative;
+        top: 15%;
+        width: 85%;
+        text-align: justify;
+        margin-top: 30px;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+/* //Overlay   */
+
+
+.image-heading {
+    
+    font-weight: bold;
+    font-size: 18px;
+    /* line-height: 1.25;
+    min-height: 2.5em; */
+}
+/* .truedetect {
+    position: relative;
+} */
+.upperimage-content h2 {    
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin: 0;    
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0px 15px;
+}
+.upperimage-content {
+    position: relative;    
+    background-size: cover!important;
+    background-position: center center!important;
+    padding: 200px 0;
+}
+.upperimage1{
+    background: url(../images/homepage2/3.1.jpg);
+}
+.upperimage2{
+    background: url(../images/homepage2/4.1.jpg);
+}
+.upperimage3{
+    background: url(../images/homepage2/5.1.jpg);
+}
+.upperimage4{
+    background: url(../images/homepage2/6.1.jpg);
+}
+.truedetect p {
+    margin-top: 50px;
+}
+.overlay-two-col p {
+    width: 100%;
+    color: #fff;
+    margin: 5px 0;
+}

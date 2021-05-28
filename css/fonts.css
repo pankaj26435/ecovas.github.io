@@ -1,0 +1,23 @@
+ @font-face {
+    font-family: HelveticaLight;
+    src: local('Helvetica Neue LT Std 45 Light'), local('HelveticaNeueLTStd-Lt'),
+    url(../fonts/HelveticaNeueLTStd-Lt.otf);
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: HelveticaRoman;
+    src: local('Helvetica Neue LT Std 55 Roman'),
+    local('HelveticaNeueLTStd-Roman'),
+    url(../fonts/HelveticaNeueLTStd-Roman.otf);
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: HelveticaMedium;
+    src: local('Helvetica Neue LT Std 65 Medium'),
+    local('HelveticaNeueLTStd-Medium'),
+    url(../fonts/HelveticaNeueLTStd-Md.otf);
+    font-weight: normal;
+    font-display: swap;
+}
